@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F85F9EAF2691A97D00A401F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F9EAE2691A97D00A401F3 /* AppDelegate.swift */; };
+		F85F9EB12691A97D00A401F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F9EB02691A97D00A401F3 /* SceneDelegate.swift */; };
+		F85F9EB32691A97D00A401F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F9EB22691A97D00A401F3 /* ViewController.swift */; };
+		F85F9EB62691A97D00A401F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85F9EB42691A97D00A401F3 /* Main.storyboard */; };
+		F85F9EB92691A97D00A401F3 /* OshiCalendar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F85F9EB72691A97D00A401F3 /* OshiCalendar.xcdatamodeld */; };
+		F85F9EBB2691A97E00A401F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85F9EBA2691A97E00A401F3 /* Assets.xcassets */; };
+		F85F9EBE2691A97E00A401F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85F9EBC2691A97E00A401F3 /* LaunchScreen.storyboard */; };
+		F85F9EC92691A97E00A401F3 /* OshiCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F9EC82691A97E00A401F3 /* OshiCalendarTests.swift */; };
+		F85F9ED42691A97E00A401F3 /* OshiCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F9ED32691A97E00A401F3 /* OshiCalendarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F85F9EC52691A97E00A401F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85F9EA32691A97D00A401F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F85F9EAA2691A97D00A401F3;
+			remoteInfo = OshiCalendar;
+		};
+		F85F9ED02691A97E00A401F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85F9EA32691A97D00A401F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F85F9EAA2691A97D00A401F3;
+			remoteInfo = OshiCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F85F9EAB2691A97D00A401F3 /* OshiCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OshiCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85F9EAE2691A97D00A401F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F85F9EB02691A97D00A401F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F85F9EB22691A97D00A401F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F85F9EB52691A97D00A401F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F85F9EB82691A97D00A401F3 /* OshiCalendar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OshiCalendar.xcdatamodel; sourceTree = "<group>"; };
+		F85F9EBA2691A97E00A401F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F85F9EBD2691A97E00A401F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F85F9EBF2691A97E00A401F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F85F9EC42691A97E00A401F3 /* OshiCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OshiCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85F9EC82691A97E00A401F3 /* OshiCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OshiCalendarTests.swift; sourceTree = "<group>"; };
+		F85F9ECA2691A97E00A401F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F85F9ECF2691A97E00A401F3 /* OshiCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OshiCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85F9ED32691A97E00A401F3 /* OshiCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OshiCalendarUITests.swift; sourceTree = "<group>"; };
+		F85F9ED52691A97E00A401F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F85F9EA82691A97D00A401F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85F9EC12691A97E00A401F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85F9ECC2691A97E00A401F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F85F9EA22691A97D00A401F3 = {
+			isa = PBXGroup;
+			children = (
+				F85F9EAD2691A97D00A401F3 /* OshiCalendar */,
+				F85F9EC72691A97E00A401F3 /* OshiCalendarTests */,
+				F85F9ED22691A97E00A401F3 /* OshiCalendarUITests */,
+				F85F9EAC2691A97D00A401F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F85F9EAC2691A97D00A401F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F85F9EAB2691A97D00A401F3 /* OshiCalendar.app */,
+				F85F9EC42691A97E00A401F3 /* OshiCalendarTests.xctest */,
+				F85F9ECF2691A97E00A401F3 /* OshiCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F85F9EAD2691A97D00A401F3 /* OshiCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				F85F9EAE2691A97D00A401F3 /* AppDelegate.swift */,
+				F85F9EB02691A97D00A401F3 /* SceneDelegate.swift */,
+				F85F9EB22691A97D00A401F3 /* ViewController.swift */,
+				F85F9EB42691A97D00A401F3 /* Main.storyboard */,
+				F85F9EBA2691A97E00A401F3 /* Assets.xcassets */,
+				F85F9EBC2691A97E00A401F3 /* LaunchScreen.storyboard */,
+				F85F9EBF2691A97E00A401F3 /* Info.plist */,
+				F85F9EB72691A97D00A401F3 /* OshiCalendar.xcdatamodeld */,
+			);
+			path = OshiCalendar;
+			sourceTree = "<group>";
+		};
+		F85F9EC72691A97E00A401F3 /* OshiCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				F85F9EC82691A97E00A401F3 /* OshiCalendarTests.swift */,
+				F85F9ECA2691A97E00A401F3 /* Info.plist */,
+			);
+			path = OshiCalendarTests;
+			sourceTree = "<group>";
+		};
+		F85F9ED22691A97E00A401F3 /* OshiCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F85F9ED32691A97E00A401F3 /* OshiCalendarUITests.swift */,
+				F85F9ED52691A97E00A401F3 /* Info.plist */,
+			);
+			path = OshiCalendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F85F9EAA2691A97D00A401F3 /* OshiCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85F9ED82691A97E00A401F3 /* Build configuration list for PBXNativeTarget "OshiCalendar" */;
+			buildPhases = (
+				F85F9EA72691A97D00A401F3 /* Sources */,
+				F85F9EA82691A97D00A401F3 /* Frameworks */,
+				F85F9EA92691A97D00A401F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OshiCalendar;
+			productName = OshiCalendar;
+			productReference = F85F9EAB2691A97D00A401F3 /* OshiCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F85F9EC32691A97E00A401F3 /* OshiCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85F9EDB2691A97E00A401F3 /* Build configuration list for PBXNativeTarget "OshiCalendarTests" */;
+			buildPhases = (
+				F85F9EC02691A97E00A401F3 /* Sources */,
+				F85F9EC12691A97E00A401F3 /* Frameworks */,
+				F85F9EC22691A97E00A401F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F85F9EC62691A97E00A401F3 /* PBXTargetDependency */,
+			);
+			name = OshiCalendarTests;
+			productName = OshiCalendarTests;
+			productReference = F85F9EC42691A97E00A401F3 /* OshiCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F85F9ECE2691A97E00A401F3 /* OshiCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85F9EDE2691A97E00A401F3 /* Build configuration list for PBXNativeTarget "OshiCalendarUITests" */;
+			buildPhases = (
+				F85F9ECB2691A97E00A401F3 /* Sources */,
+				F85F9ECC2691A97E00A401F3 /* Frameworks */,
+				F85F9ECD2691A97E00A401F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F85F9ED12691A97E00A401F3 /* PBXTargetDependency */,
+			);
+			name = OshiCalendarUITests;
+			productName = OshiCalendarUITests;
+			productReference = F85F9ECF2691A97E00A401F3 /* OshiCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F85F9EA32691A97D00A401F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "平島峻成";
+				TargetAttributes = {
+					F85F9EAA2691A97D00A401F3 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					F85F9EC32691A97E00A401F3 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = F85F9EAA2691A97D00A401F3;
+					};
+					F85F9ECE2691A97E00A401F3 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = F85F9EAA2691A97D00A401F3;
+					};
+				};
+			};
+			buildConfigurationList = F85F9EA62691A97D00A401F3 /* Build configuration list for PBXProject "OshiCalendar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F85F9EA22691A97D00A401F3;
+			productRefGroup = F85F9EAC2691A97D00A401F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F85F9EAA2691A97D00A401F3 /* OshiCalendar */,
+				F85F9EC32691A97E00A401F3 /* OshiCalendarTests */,
+				F85F9ECE2691A97E00A401F3 /* OshiCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F85F9EA92691A97D00A401F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85F9EBE2691A97E00A401F3 /* LaunchScreen.storyboard in Resources */,
+				F85F9EBB2691A97E00A401F3 /* Assets.xcassets in Resources */,
+				F85F9EB62691A97D00A401F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85F9EC22691A97E00A401F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85F9ECD2691A97E00A401F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F85F9EA72691A97D00A401F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85F9EB32691A97D00A401F3 /* ViewController.swift in Sources */,
+				F85F9EAF2691A97D00A401F3 /* AppDelegate.swift in Sources */,
+				F85F9EB92691A97D00A401F3 /* OshiCalendar.xcdatamodeld in Sources */,
+				F85F9EB12691A97D00A401F3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85F9EC02691A97E00A401F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85F9EC92691A97E00A401F3 /* OshiCalendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85F9ECB2691A97E00A401F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85F9ED42691A97E00A401F3 /* OshiCalendarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F85F9EC62691A97E00A401F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F85F9EAA2691A97D00A401F3 /* OshiCalendar */;
+			targetProxy = F85F9EC52691A97E00A401F3 /* PBXContainerItemProxy */;
+		};
+		F85F9ED12691A97E00A401F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F85F9EAA2691A97D00A401F3 /* OshiCalendar */;
+			targetProxy = F85F9ED02691A97E00A401F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F85F9EB42691A97D00A401F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F85F9EB52691A97D00A401F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F85F9EBC2691A97E00A401F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F85F9EBD2691A97E00A401F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F85F9ED62691A97E00A401F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F85F9ED72691A97E00A401F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F85F9ED92691A97E00A401F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LKU3428CZ;
+				INFOPLIST_FILE = OshiCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hira.OshiCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F85F9EDA2691A97E00A401F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LKU3428CZ;
+				INFOPLIST_FILE = OshiCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hira.OshiCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F85F9EDC2691A97E00A401F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LKU3428CZ;
+				INFOPLIST_FILE = OshiCalendarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hira.OshiCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OshiCalendar.app/OshiCalendar";
+			};
+			name = Debug;
+		};
+		F85F9EDD2691A97E00A401F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LKU3428CZ;
+				INFOPLIST_FILE = OshiCalendarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hira.OshiCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OshiCalendar.app/OshiCalendar";
+			};
+			name = Release;
+		};
+		F85F9EDF2691A97E00A401F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LKU3428CZ;
+				INFOPLIST_FILE = OshiCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hira.OshiCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OshiCalendar;
+			};
+			name = Debug;
+		};
+		F85F9EE02691A97E00A401F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LKU3428CZ;
+				INFOPLIST_FILE = OshiCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hira.OshiCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OshiCalendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F85F9EA62691A97D00A401F3 /* Build configuration list for PBXProject "OshiCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85F9ED62691A97E00A401F3 /* Debug */,
+				F85F9ED72691A97E00A401F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85F9ED82691A97E00A401F3 /* Build configuration list for PBXNativeTarget "OshiCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85F9ED92691A97E00A401F3 /* Debug */,
+				F85F9EDA2691A97E00A401F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85F9EDB2691A97E00A401F3 /* Build configuration list for PBXNativeTarget "OshiCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85F9EDC2691A97E00A401F3 /* Debug */,
+				F85F9EDD2691A97E00A401F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85F9EDE2691A97E00A401F3 /* Build configuration list for PBXNativeTarget "OshiCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85F9EDF2691A97E00A401F3 /* Debug */,
+				F85F9EE02691A97E00A401F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F85F9EB72691A97D00A401F3 /* OshiCalendar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F85F9EB82691A97D00A401F3 /* OshiCalendar.xcdatamodel */,
+			);
+			currentVersion = F85F9EB82691A97D00A401F3 /* OshiCalendar.xcdatamodel */;
+			path = OshiCalendar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F85F9EA32691A97D00A401F3 /* Project object */;
+}

@@ -21,16 +21,31 @@
                                     <navigationItem title="Event Calemdar" id="JL0-Jy-zAa"/>
                                 </items>
                             </navigationBar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hXJ-2E-Y2h" customClass="FSCalendar">
+                                <rect key="frame" x="16" y="88" width="343" height="376"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="376" id="Qbg-tp-gIB"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="KV9-Rg-YDa"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="D79-lv-eg5"/>
+                                </connections>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="hXJ-2E-Y2h" firstAttribute="top" secondItem="XC2-mc-lla" secondAttribute="bottom" id="5nG-V5-SCz"/>
                             <constraint firstItem="XC2-mc-lla" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="FDn-EV-nSO"/>
+                            <constraint firstItem="hXJ-2E-Y2h" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="PZJ-dH-VBP"/>
                             <constraint firstItem="XC2-mc-lla" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="TAF-0L-bYs"/>
                             <constraint firstItem="XC2-mc-lla" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="VSF-n7-854"/>
+                            <constraint firstItem="hXJ-2E-Y2h" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="pjN-zO-tLF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="calendar" destination="hXJ-2E-Y2h" id="zv9-IR-dlG"/>
                         <outlet property="navigationBar" destination="XC2-mc-lla" id="Yhz-FZ-515"/>
                     </connections>
                 </viewController>

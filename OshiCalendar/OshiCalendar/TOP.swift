@@ -76,9 +76,30 @@ class ViewController: UIViewController,UINavigationBarDelegate,FSCalendarDelegat
         let tmpCalendar = Calendar(identifier: .gregorian)
         return tmpCalendar.component(.weekday, from: date)
     }
+    
+    //曜日の色と文字列を変更
+    func changeWeek(){
+        self.calendar.calendarWeekdayView.weekdayLabels[0].text = "日"
+        self.calendar.calendarWeekdayView.weekdayLabels[1].text = "月"
+        self.calendar.calendarWeekdayView.weekdayLabels[2].text = "火"
+        self.calendar.calendarWeekdayView.weekdayLabels[3].text = "水"
+        self.calendar.calendarWeekdayView.weekdayLabels[4].text = "木"
+        self.calendar.calendarWeekdayView.weekdayLabels[5].text = "金"
+        self.calendar.calendarWeekdayView.weekdayLabels[6].text = "土"
+        self.calendar.calendarWeekdayView.weekdayLabels[0].textColor = UIColor.red
+        self.calendar.calendarWeekdayView.weekdayLabels[1].textColor = UIColor.black
+        self.calendar.calendarWeekdayView.weekdayLabels[2].textColor = UIColor.black
+        self.calendar.calendarWeekdayView.weekdayLabels[3].textColor = UIColor.black
+        self.calendar.calendarWeekdayView.weekdayLabels[4].textColor = UIColor.black
+        self.calendar.calendarWeekdayView.weekdayLabels[5].textColor = UIColor.black
+        self.calendar.calendarWeekdayView.weekdayLabels[6].textColor = UIColor.blue
+    }
 
     // 土日や祝日の日の文字色を変える
     func calendar(_ calendar: FSCalendar, appearance: FSCalendarAppearance, titleDefaultColorFor date: Date) -> UIColor? {
+        
+        changeWeek()
+        
         //祝日判定をする（祝日は赤色で表示する）
         if self.judgeHoliday(date){
             return UIColor.red
@@ -95,6 +116,7 @@ class ViewController: UIViewController,UINavigationBarDelegate,FSCalendarDelegat
 
         return nil
     }
+    
 
 }
 

@@ -8,13 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,UINavigationBarDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 
-        
+        navigationBar.delegate = self
+
         makeGradation()
     }
     @IBOutlet weak var navigationBar: UINavigationBar!
@@ -23,6 +24,10 @@ class ViewController: UIViewController {
         let image = UIImage(named: "BG")
         self.navigationBar.setBackgroundImage(image, for: .default)
         self.navigationBar.isTranslucent = true
+    }
+    
+    func position(for bar: UIBarPositioning) -> UIBarPosition {
+        return .topAttached
     }
 
 }

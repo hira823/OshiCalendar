@@ -6,6 +6,7 @@ target 'OshiCalendar' do
   use_frameworks!
 
   # Pods for OshiCalendar
+  pod 'FSCalendar'
 
   target 'OshiCalendarTests' do
     inherit! :search_paths

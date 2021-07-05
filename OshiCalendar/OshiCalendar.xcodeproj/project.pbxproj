@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89519BACDB979173B87E31BB /* Pods_OshiCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05C386C4FDDB0916DB66C781 /* Pods_OshiCalendar.framework */; };
+		A0E668A0FB215661B47791F4 /* Pods_OshiCalendar_OshiCalendarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D03164363AAC9FE08ABF30B /* Pods_OshiCalendar_OshiCalendarUITests.framework */; };
+		C76D17681A3C2798405093DE /* Pods_OshiCalendarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47420190B056DCDBAFD72A4E /* Pods_OshiCalendarTests.framework */; };
 		F85F9EAF2691A97D00A401F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F9EAE2691A97D00A401F3 /* AppDelegate.swift */; };
 		F85F9EB12691A97D00A401F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F9EB02691A97D00A401F3 /* SceneDelegate.swift */; };
 		F85F9EB32691A97D00A401F3 /* TOP.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F9EB22691A97D00A401F3 /* TOP.swift */; };
@@ -36,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05C386C4FDDB0916DB66C781 /* Pods_OshiCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OshiCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DAFD9E4EBFBBF2CF88536B /* Pods-OshiCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OshiCalendar.debug.xcconfig"; path = "Target Support Files/Pods-OshiCalendar/Pods-OshiCalendar.debug.xcconfig"; sourceTree = "<group>"; };
+		0D03164363AAC9FE08ABF30B /* Pods_OshiCalendar_OshiCalendarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OshiCalendar_OshiCalendarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10B759E7371CADED6D531927 /* Pods-OshiCalendar-OshiCalendarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OshiCalendar-OshiCalendarUITests.debug.xcconfig"; path = "Target Support Files/Pods-OshiCalendar-OshiCalendarUITests/Pods-OshiCalendar-OshiCalendarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		39DF1CD3AF9511568D798CE4 /* Pods-OshiCalendarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OshiCalendarTests.debug.xcconfig"; path = "Target Support Files/Pods-OshiCalendarTests/Pods-OshiCalendarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		47420190B056DCDBAFD72A4E /* Pods_OshiCalendarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OshiCalendarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B306064B80A8920C479F492 /* Pods-OshiCalendar-OshiCalendarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OshiCalendar-OshiCalendarUITests.release.xcconfig"; path = "Target Support Files/Pods-OshiCalendar-OshiCalendarUITests/Pods-OshiCalendar-OshiCalendarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4CCD823F92B391CAC5E02C38 /* Pods-OshiCalendarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OshiCalendarTests.release.xcconfig"; path = "Target Support Files/Pods-OshiCalendarTests/Pods-OshiCalendarTests.release.xcconfig"; sourceTree = "<group>"; };
+		E3636ED7332E006B89B51762 /* Pods-OshiCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OshiCalendar.release.xcconfig"; path = "Target Support Files/Pods-OshiCalendar/Pods-OshiCalendar.release.xcconfig"; sourceTree = "<group>"; };
 		F85F9EAB2691A97D00A401F3 /* OshiCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OshiCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85F9EAE2691A97D00A401F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F85F9EB02691A97D00A401F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89519BACDB979173B87E31BB /* Pods_OshiCalendar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C76D17681A3C2798405093DE /* Pods_OshiCalendarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0E668A0FB215661B47791F4 /* Pods_OshiCalendar_OshiCalendarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		557062D50A573BE9CC2BD5F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05DAFD9E4EBFBBF2CF88536B /* Pods-OshiCalendar.debug.xcconfig */,
+				E3636ED7332E006B89B51762 /* Pods-OshiCalendar.release.xcconfig */,
+				10B759E7371CADED6D531927 /* Pods-OshiCalendar-OshiCalendarUITests.debug.xcconfig */,
+				4B306064B80A8920C479F492 /* Pods-OshiCalendar-OshiCalendarUITests.release.xcconfig */,
+				39DF1CD3AF9511568D798CE4 /* Pods-OshiCalendarTests.debug.xcconfig */,
+				4CCD823F92B391CAC5E02C38 /* Pods-OshiCalendarTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E0D8A4F6F38EA17C10CAF62D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05C386C4FDDB0916DB66C781 /* Pods_OshiCalendar.framework */,
+				0D03164363AAC9FE08ABF30B /* Pods_OshiCalendar_OshiCalendarUITests.framework */,
+				47420190B056DCDBAFD72A4E /* Pods_OshiCalendarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F85F9EA22691A97D00A401F3 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +124,8 @@
 				F85F9EC72691A97E00A401F3 /* OshiCalendarTests */,
 				F85F9ED22691A97E00A401F3 /* OshiCalendarUITests */,
 				F85F9EAC2691A97D00A401F3 /* Products */,
+				557062D50A573BE9CC2BD5F6 /* Pods */,
+				E0D8A4F6F38EA17C10CAF62D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F85F9ED82691A97E00A401F3 /* Build configuration list for PBXNativeTarget "OshiCalendar" */;
 			buildPhases = (
+				42FEE585BFD0D67FB054B8AC /* [CP] Check Pods Manifest.lock */,
 				F85F9EA72691A97D00A401F3 /* Sources */,
 				F85F9EA82691A97D00A401F3 /* Frameworks */,
 				F85F9EA92691A97D00A401F3 /* Resources */,
+				DEBE9C7258EF4F641023D747 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F85F9EDB2691A97E00A401F3 /* Build configuration list for PBXNativeTarget "OshiCalendarTests" */;
 			buildPhases = (
+				4A027E97F58FFF6B8D5E6EB1 /* [CP] Check Pods Manifest.lock */,
 				F85F9EC02691A97E00A401F3 /* Sources */,
 				F85F9EC12691A97E00A401F3 /* Frameworks */,
 				F85F9EC22691A97E00A401F3 /* Resources */,
@@ -173,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F85F9EDE2691A97E00A401F3 /* Build configuration list for PBXNativeTarget "OshiCalendarUITests" */;
 			buildPhases = (
+				9144D3F661FAD470F30EF601 /* [CP] Check Pods Manifest.lock */,
 				F85F9ECB2691A97E00A401F3 /* Sources */,
 				F85F9ECC2691A97E00A401F3 /* Frameworks */,
 				F85F9ECD2691A97E00A401F3 /* Resources */,
+				C98B12C3E29A0FECFE947B6B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +302,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42FEE585BFD0D67FB054B8AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OshiCalendar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A027E97F58FFF6B8D5E6EB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OshiCalendarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9144D3F661FAD470F30EF601 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OshiCalendar-OshiCalendarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C98B12C3E29A0FECFE947B6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OshiCalendar-OshiCalendarUITests/Pods-OshiCalendar-OshiCalendarUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OshiCalendar-OshiCalendarUITests/Pods-OshiCalendar-OshiCalendarUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OshiCalendar-OshiCalendarUITests/Pods-OshiCalendar-OshiCalendarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEBE9C7258EF4F641023D747 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OshiCalendar/Pods-OshiCalendar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OshiCalendar/Pods-OshiCalendar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OshiCalendar/Pods-OshiCalendar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F85F9EA72691A97D00A401F3 /* Sources */ = {
@@ -436,6 +585,7 @@
 		};
 		F85F9ED92691A97E00A401F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05DAFD9E4EBFBBF2CF88536B /* Pods-OshiCalendar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +604,7 @@
 		};
 		F85F9EDA2691A97E00A401F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3636ED7332E006B89B51762 /* Pods-OshiCalendar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +623,7 @@
 		};
 		F85F9EDC2691A97E00A401F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39DF1CD3AF9511568D798CE4 /* Pods-OshiCalendarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +646,7 @@
 		};
 		F85F9EDD2691A97E00A401F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CCD823F92B391CAC5E02C38 /* Pods-OshiCalendarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +669,7 @@
 		};
 		F85F9EDF2691A97E00A401F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10B759E7371CADED6D531927 /* Pods-OshiCalendar-OshiCalendarUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +690,7 @@
 		};
 		F85F9EE02691A97E00A401F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B306064B80A8920C479F492 /* Pods-OshiCalendar-OshiCalendarUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

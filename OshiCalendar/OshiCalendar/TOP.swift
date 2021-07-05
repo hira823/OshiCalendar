@@ -13,8 +13,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    }
 
+        
+        makeGradation()
+    }
+    @IBOutlet weak var navigationBar: UINavigationBar!
+    
+    func makeGradation(){
+        let image = UIImage(named: "BG")
+        self.navigationBar.setBackgroundImage(image, for: .default)
+        self.navigationBar.isTranslucent = true
+    }
 
 }
 

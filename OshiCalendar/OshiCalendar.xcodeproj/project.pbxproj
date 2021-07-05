@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		F85F9EAF2691A97D00A401F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F9EAE2691A97D00A401F3 /* AppDelegate.swift */; };
 		F85F9EB12691A97D00A401F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F9EB02691A97D00A401F3 /* SceneDelegate.swift */; };
-		F85F9EB32691A97D00A401F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F9EB22691A97D00A401F3 /* ViewController.swift */; };
-		F85F9EB62691A97D00A401F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85F9EB42691A97D00A401F3 /* Main.storyboard */; };
+		F85F9EB32691A97D00A401F3 /* TOP.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F9EB22691A97D00A401F3 /* TOP.swift */; };
+		F85F9EB62691A97D00A401F3 /* TOP.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85F9EB42691A97D00A401F3 /* TOP.storyboard */; };
 		F85F9EB92691A97D00A401F3 /* OshiCalendar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F85F9EB72691A97D00A401F3 /* OshiCalendar.xcdatamodeld */; };
 		F85F9EBB2691A97E00A401F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85F9EBA2691A97E00A401F3 /* Assets.xcassets */; };
 		F85F9EBE2691A97E00A401F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85F9EBC2691A97E00A401F3 /* LaunchScreen.storyboard */; };
@@ -39,8 +39,8 @@
 		F85F9EAB2691A97D00A401F3 /* OshiCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OshiCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85F9EAE2691A97D00A401F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F85F9EB02691A97D00A401F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F85F9EB22691A97D00A401F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F85F9EB52691A97D00A401F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F85F9EB22691A97D00A401F3 /* TOP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOP.swift; sourceTree = "<group>"; };
+		F85F9EB52691A97D00A401F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TOP.storyboard; sourceTree = "<group>"; };
 		F85F9EB82691A97D00A401F3 /* OshiCalendar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OshiCalendar.xcdatamodel; sourceTree = "<group>"; };
 		F85F9EBA2691A97E00A401F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F85F9EBD2691A97E00A401F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,8 +103,8 @@
 			children = (
 				F85F9EAE2691A97D00A401F3 /* AppDelegate.swift */,
 				F85F9EB02691A97D00A401F3 /* SceneDelegate.swift */,
-				F85F9EB22691A97D00A401F3 /* ViewController.swift */,
-				F85F9EB42691A97D00A401F3 /* Main.storyboard */,
+				F85F9EB22691A97D00A401F3 /* TOP.swift */,
+				F85F9EB42691A97D00A401F3 /* TOP.storyboard */,
 				F85F9EBA2691A97E00A401F3 /* Assets.xcassets */,
 				F85F9EBC2691A97E00A401F3 /* LaunchScreen.storyboard */,
 				F85F9EBF2691A97E00A401F3 /* Info.plist */,
@@ -237,7 +237,7 @@
 			files = (
 				F85F9EBE2691A97E00A401F3 /* LaunchScreen.storyboard in Resources */,
 				F85F9EBB2691A97E00A401F3 /* Assets.xcassets in Resources */,
-				F85F9EB62691A97D00A401F3 /* Main.storyboard in Resources */,
+				F85F9EB62691A97D00A401F3 /* TOP.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F85F9EB32691A97D00A401F3 /* ViewController.swift in Sources */,
+				F85F9EB32691A97D00A401F3 /* TOP.swift in Sources */,
 				F85F9EAF2691A97D00A401F3 /* AppDelegate.swift in Sources */,
 				F85F9EB92691A97D00A401F3 /* OshiCalendar.xcdatamodeld in Sources */,
 				F85F9EB12691A97D00A401F3 /* SceneDelegate.swift in Sources */,
@@ -301,12 +301,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F85F9EB42691A97D00A401F3 /* Main.storyboard */ = {
+		F85F9EB42691A97D00A401F3 /* TOP.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F85F9EB52691A97D00A401F3 /* Base */,
 			);
-			name = Main.storyboard;
+			name = TOP.storyboard;
 			sourceTree = "<group>";
 		};
 		F85F9EBC2691A97E00A401F3 /* LaunchScreen.storyboard */ = {

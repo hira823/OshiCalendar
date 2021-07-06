@@ -41,11 +41,23 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="D79-lv-eg5"/>
                                 </connections>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today's Event" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uhp-eH-Fgs">
+                                <rect key="frame" x="15" y="464" width="116" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="116" id="EWb-pn-KXp"/>
+                                    <constraint firstAttribute="height" constant="30" id="Gob-6Z-BzQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="hXJ-2E-Y2h" firstAttribute="top" secondItem="XC2-mc-lla" secondAttribute="bottom" id="5nG-V5-SCz"/>
+                            <constraint firstItem="uhp-eH-Fgs" firstAttribute="top" secondItem="hXJ-2E-Y2h" secondAttribute="bottom" id="78P-AS-rNI"/>
                             <constraint firstItem="XC2-mc-lla" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="FDn-EV-nSO"/>
+                            <constraint firstItem="uhp-eH-Fgs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="ObE-pQ-zBb"/>
                             <constraint firstItem="hXJ-2E-Y2h" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="PZJ-dH-VBP"/>
                             <constraint firstItem="XC2-mc-lla" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="TAF-0L-bYs"/>
                             <constraint firstItem="XC2-mc-lla" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="VSF-n7-854"/>

@@ -3,11 +3,33 @@
     {
       "filename" : "BG@1x.pdf",
       "idiom" : "universal",
+      "resizing" : {
+        "cap-insets" : {
+          "left" : 191,
+          "right" : 192
+        },
+        "center" : {
+          "mode" : "tile",
+          "width" : 1
+        },
+        "mode" : "3-part-horizontal"
+      },
       "scale" : "1x"
     },
     {
       "filename" : "BG@2x.pdf",
       "idiom" : "universal",
+      "resizing" : {
+        "cap-insets" : {
+          "left" : 389,
+          "right" : 390
+        },
+        "center" : {
+          "mode" : "tile",
+          "width" : 1
+        },
+        "mode" : "3-part-horizontal"
+      },
       "scale" : "2x"
     },
     {

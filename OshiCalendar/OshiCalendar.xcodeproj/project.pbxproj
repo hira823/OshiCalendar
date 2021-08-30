@@ -7,23 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		89519BACDB979173B87E31BB /* Pods_OshiCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05C386C4FDDB0916DB66C781 /* Pods_OshiCalendar.framework */; };
+		18DD51B2AA60FA2C43E7B810 /* Pods_ViewsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19ED9C7BA2E426D5115FEF9A /* Pods_ViewsTests.framework */; };
+		9A1E6EF86B7198F561983A21 /* Pods_Views.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2232BA7A5BEBDB9A2A5C0E8D /* Pods_Views.framework */; };
 		A0E668A0FB215661B47791F4 /* Pods_OshiCalendar_OshiCalendarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D03164363AAC9FE08ABF30B /* Pods_OshiCalendar_OshiCalendarUITests.framework */; };
 		C76D17681A3C2798405093DE /* Pods_OshiCalendarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47420190B056DCDBAFD72A4E /* Pods_OshiCalendarTests.framework */; };
+		F817359926DD188A00D4D530 /* Views.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F817359026DD188900D4D530 /* Views.framework */; };
+		F81735A026DD188A00D4D530 /* ViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F817359F26DD188A00D4D530 /* ViewsTests.swift */; };
+		F81735A226DD188A00D4D530 /* Views.h in Headers */ = {isa = PBXBuildFile; fileRef = F817359226DD188900D4D530 /* Views.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F81735A526DD188A00D4D530 /* Views.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F817359026DD188900D4D530 /* Views.framework */; };
+		F81735A626DD188A00D4D530 /* Views.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F817359026DD188900D4D530 /* Views.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F81735B026DD192000D4D530 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F9EB22691A97D00A401F3 /* TopView.swift */; };
+		F81735B126DD1A1900D4D530 /* TopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8B50EA126DCE0EB001E6469 /* TopView.xib */; };
+		F81735BC26DD983300D4D530 /* Pods_OshiCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81735BB26DD983300D4D530 /* Pods_OshiCalendar.framework */; };
+		F81735BF26DD9D7900D4D530 /* XibLoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81735BE26DD9D7900D4D530 /* XibLoadView.swift */; };
+		F81735CE26DDA28500D4D530 /* Models.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81735C526DDA28500D4D530 /* Models.framework */; };
+		F81735D526DDA28500D4D530 /* ModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81735D426DDA28500D4D530 /* ModelsTests.swift */; };
+		F81735D726DDA28500D4D530 /* Models.h in Headers */ = {isa = PBXBuildFile; fileRef = F81735C726DDA28500D4D530 /* Models.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F81735DA26DDA28500D4D530 /* Models.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81735C526DDA28500D4D530 /* Models.framework */; };
+		F81735DB26DDA28500D4D530 /* Models.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F81735C526DDA28500D4D530 /* Models.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F85F9EAF2691A97D00A401F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F9EAE2691A97D00A401F3 /* AppDelegate.swift */; };
 		F85F9EB12691A97D00A401F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F9EB02691A97D00A401F3 /* SceneDelegate.swift */; };
-		F85F9EB32691A97D00A401F3 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F9EB22691A97D00A401F3 /* TopView.swift */; };
 		F85F9EB92691A97D00A401F3 /* OshiCalendar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F85F9EB72691A97D00A401F3 /* OshiCalendar.xcdatamodeld */; };
 		F85F9EBB2691A97E00A401F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85F9EBA2691A97E00A401F3 /* Assets.xcassets */; };
 		F85F9EBE2691A97E00A401F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85F9EBC2691A97E00A401F3 /* LaunchScreen.storyboard */; };
 		F85F9EC92691A97E00A401F3 /* OshiCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F9EC82691A97E00A401F3 /* OshiCalendarTests.swift */; };
 		F85F9ED42691A97E00A401F3 /* OshiCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F9ED32691A97E00A401F3 /* OshiCalendarUITests.swift */; };
-		F8B50EA226DCE0EB001E6469 /* TopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8B50EA126DCE0EB001E6469 /* TopView.xib */; };
 		F8B50EA426DCE1C5001E6469 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B50EA326DCE1C5001E6469 /* Main.storyboard */; };
 		F8B50EA726DCEBEE001E6469 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B50EA626DCEBEE001E6469 /* TopViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		F817359A26DD188A00D4D530 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85F9EA32691A97D00A401F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F817358F26DD188900D4D530;
+			remoteInfo = Views;
+		};
+		F817359C26DD188A00D4D530 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85F9EA32691A97D00A401F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F85F9EAA2691A97D00A401F3;
+			remoteInfo = OshiCalendar;
+		};
+		F81735A326DD188A00D4D530 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85F9EA32691A97D00A401F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F817358F26DD188900D4D530;
+			remoteInfo = Views;
+		};
+		F81735CF26DDA28500D4D530 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85F9EA32691A97D00A401F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F81735C426DDA28500D4D530;
+			remoteInfo = Models;
+		};
+		F81735D126DDA28500D4D530 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85F9EA32691A97D00A401F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F85F9EAA2691A97D00A401F3;
+			remoteInfo = OshiCalendar;
+		};
+		F81735D826DDA28500D4D530 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85F9EA32691A97D00A401F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F81735C426DDA28500D4D530;
+			remoteInfo = Models;
+		};
 		F85F9EC52691A97E00A401F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F85F9EA32691A97D00A401F3 /* Project object */;
@@ -40,16 +95,54 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F81735A726DD188A00D4D530 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F81735DB26DDA28500D4D530 /* Models.framework in Embed Frameworks */,
+				F81735A626DD188A00D4D530 /* Views.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		05C386C4FDDB0916DB66C781 /* Pods_OshiCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OshiCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		05DAFD9E4EBFBBF2CF88536B /* Pods-OshiCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OshiCalendar.debug.xcconfig"; path = "Target Support Files/Pods-OshiCalendar/Pods-OshiCalendar.debug.xcconfig"; sourceTree = "<group>"; };
 		0D03164363AAC9FE08ABF30B /* Pods_OshiCalendar_OshiCalendarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OshiCalendar_OshiCalendarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		10B759E7371CADED6D531927 /* Pods-OshiCalendar-OshiCalendarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OshiCalendar-OshiCalendarUITests.debug.xcconfig"; path = "Target Support Files/Pods-OshiCalendar-OshiCalendarUITests/Pods-OshiCalendar-OshiCalendarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1324535DF921CEBB0DEE571E /* Pods-Views.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Views.debug.xcconfig"; path = "Target Support Files/Pods-Views/Pods-Views.debug.xcconfig"; sourceTree = "<group>"; };
+		19ED9C7BA2E426D5115FEF9A /* Pods_ViewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2232BA7A5BEBDB9A2A5C0E8D /* Pods_Views.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Views.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC7607E5C9F59F28AF98606 /* Pods-ViewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewsTests.release.xcconfig"; path = "Target Support Files/Pods-ViewsTests/Pods-ViewsTests.release.xcconfig"; sourceTree = "<group>"; };
 		39DF1CD3AF9511568D798CE4 /* Pods-OshiCalendarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OshiCalendarTests.debug.xcconfig"; path = "Target Support Files/Pods-OshiCalendarTests/Pods-OshiCalendarTests.debug.xcconfig"; sourceTree = "<group>"; };
 		47420190B056DCDBAFD72A4E /* Pods_OshiCalendarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OshiCalendarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B306064B80A8920C479F492 /* Pods-OshiCalendar-OshiCalendarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OshiCalendar-OshiCalendarUITests.release.xcconfig"; path = "Target Support Files/Pods-OshiCalendar-OshiCalendarUITests/Pods-OshiCalendar-OshiCalendarUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4CCD823F92B391CAC5E02C38 /* Pods-OshiCalendarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OshiCalendarTests.release.xcconfig"; path = "Target Support Files/Pods-OshiCalendarTests/Pods-OshiCalendarTests.release.xcconfig"; sourceTree = "<group>"; };
+		778F0CE07090B843DA7D8E16 /* Pods-ViewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewsTests.debug.xcconfig"; path = "Target Support Files/Pods-ViewsTests/Pods-ViewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8141AF6619631928954847F /* Pods-Views.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Views.release.xcconfig"; path = "Target Support Files/Pods-Views/Pods-Views.release.xcconfig"; sourceTree = "<group>"; };
 		E3636ED7332E006B89B51762 /* Pods-OshiCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OshiCalendar.release.xcconfig"; path = "Target Support Files/Pods-OshiCalendar/Pods-OshiCalendar.release.xcconfig"; sourceTree = "<group>"; };
+		F817359026DD188900D4D530 /* Views.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Views.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F817359226DD188900D4D530 /* Views.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Views.h; sourceTree = "<group>"; };
+		F817359326DD188900D4D530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F817359826DD188A00D4D530 /* ViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F817359F26DD188A00D4D530 /* ViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsTests.swift; sourceTree = "<group>"; };
+		F81735A126DD188A00D4D530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F81735B526DD97D200D4D530 /* Pods_OshiCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_OshiCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81735B726DD97FC00D4D530 /* FSCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81735B926DD982300D4D530 /* Pods_OshiCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_OshiCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81735BB26DD983300D4D530 /* Pods_OshiCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_OshiCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81735BE26DD9D7900D4D530 /* XibLoadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibLoadView.swift; sourceTree = "<group>"; };
+		F81735C526DDA28500D4D530 /* Models.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Models.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81735C726DDA28500D4D530 /* Models.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Models.h; sourceTree = "<group>"; };
+		F81735C826DDA28500D4D530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F81735CD26DDA28500D4D530 /* ModelsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModelsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81735D426DDA28500D4D530 /* ModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsTests.swift; sourceTree = "<group>"; };
+		F81735D626DDA28500D4D530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F85F9EAB2691A97D00A401F3 /* OshiCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OshiCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85F9EAE2691A97D00A401F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F85F9EB02691A97D00A401F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,11 +163,45 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F817358D26DD188900D4D530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1E6EF86B7198F561983A21 /* Pods_Views.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F817359526DD188A00D4D530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F817359926DD188A00D4D530 /* Views.framework in Frameworks */,
+				18DD51B2AA60FA2C43E7B810 /* Pods_ViewsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81735C226DDA28500D4D530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81735CA26DDA28500D4D530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81735CE26DDA28500D4D530 /* Models.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F85F9EA82691A97D00A401F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89519BACDB979173B87E31BB /* Pods_OshiCalendar.framework in Frameworks */,
+				F81735BC26DD983300D4D530 /* Pods_OshiCalendar.framework in Frameworks */,
+				F81735A526DD188A00D4D530 /* Views.framework in Frameworks */,
+				F81735DA26DDA28500D4D530 /* Models.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +233,10 @@
 				4B306064B80A8920C479F492 /* Pods-OshiCalendar-OshiCalendarUITests.release.xcconfig */,
 				39DF1CD3AF9511568D798CE4 /* Pods-OshiCalendarTests.debug.xcconfig */,
 				4CCD823F92B391CAC5E02C38 /* Pods-OshiCalendarTests.release.xcconfig */,
+				1324535DF921CEBB0DEE571E /* Pods-Views.debug.xcconfig */,
+				D8141AF6619631928954847F /* Pods-Views.release.xcconfig */,
+				778F0CE07090B843DA7D8E16 /* Pods-ViewsTests.debug.xcconfig */,
+				2FC7607E5C9F59F28AF98606 /* Pods-ViewsTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -113,11 +244,64 @@
 		E0D8A4F6F38EA17C10CAF62D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F81735BB26DD983300D4D530 /* Pods_OshiCalendar.framework */,
+				F81735B926DD982300D4D530 /* Pods_OshiCalendar.framework */,
+				F81735B726DD97FC00D4D530 /* FSCalendar.framework */,
+				F81735B526DD97D200D4D530 /* Pods_OshiCalendar.framework */,
 				05C386C4FDDB0916DB66C781 /* Pods_OshiCalendar.framework */,
 				0D03164363AAC9FE08ABF30B /* Pods_OshiCalendar_OshiCalendarUITests.framework */,
 				47420190B056DCDBAFD72A4E /* Pods_OshiCalendarTests.framework */,
+				2232BA7A5BEBDB9A2A5C0E8D /* Pods_Views.framework */,
+				19ED9C7BA2E426D5115FEF9A /* Pods_ViewsTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F817359126DD188900D4D530 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F81735BD26DD9D5200D4D530 /* Common */,
+				F8B50EA126DCE0EB001E6469 /* TopView.xib */,
+				F85F9EB22691A97D00A401F3 /* TopView.swift */,
+				F817359226DD188900D4D530 /* Views.h */,
+				F817359326DD188900D4D530 /* Info.plist */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F817359E26DD188A00D4D530 /* ViewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F817359F26DD188A00D4D530 /* ViewsTests.swift */,
+				F81735A126DD188A00D4D530 /* Info.plist */,
+			);
+			path = ViewsTests;
+			sourceTree = "<group>";
+		};
+		F81735BD26DD9D5200D4D530 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F81735BE26DD9D7900D4D530 /* XibLoadView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F81735C626DDA28500D4D530 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F81735C726DDA28500D4D530 /* Models.h */,
+				F81735C826DDA28500D4D530 /* Info.plist */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F81735D326DDA28500D4D530 /* ModelsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F81735D426DDA28500D4D530 /* ModelsTests.swift */,
+				F81735D626DDA28500D4D530 /* Info.plist */,
+			);
+			path = ModelsTests;
 			sourceTree = "<group>";
 		};
 		F85F9EA22691A97D00A401F3 = {
@@ -126,7 +310,10 @@
 				F85F9EAD2691A97D00A401F3 /* OshiCalendar */,
 				F85F9EC72691A97E00A401F3 /* OshiCalendarTests */,
 				F85F9ED22691A97E00A401F3 /* OshiCalendarUITests */,
-				F8B50EA526DCEADC001E6469 /* Views */,
+				F817359126DD188900D4D530 /* Views */,
+				F817359E26DD188A00D4D530 /* ViewsTests */,
+				F81735C626DDA28500D4D530 /* Models */,
+				F81735D326DDA28500D4D530 /* ModelsTests */,
 				F85F9EAC2691A97D00A401F3 /* Products */,
 				557062D50A573BE9CC2BD5F6 /* Pods */,
 				E0D8A4F6F38EA17C10CAF62D /* Frameworks */,
@@ -139,6 +326,10 @@
 				F85F9EAB2691A97D00A401F3 /* OshiCalendar.app */,
 				F85F9EC42691A97E00A401F3 /* OshiCalendarTests.xctest */,
 				F85F9ECF2691A97E00A401F3 /* OshiCalendarUITests.xctest */,
+				F817359026DD188900D4D530 /* Views.framework */,
+				F817359826DD188A00D4D530 /* ViewsTests.xctest */,
+				F81735C526DDA28500D4D530 /* Models.framework */,
+				F81735CD26DDA28500D4D530 /* ModelsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -176,15 +367,6 @@
 			path = OshiCalendarUITests;
 			sourceTree = "<group>";
 		};
-		F8B50EA526DCEADC001E6469 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				F8B50EA126DCE0EB001E6469 /* TopView.xib */,
-				F85F9EB22691A97D00A401F3 /* TopView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		F8B50EA826DCEBFC001E6469 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,7 +377,102 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		F817358B26DD188900D4D530 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81735A226DD188A00D4D530 /* Views.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81735C026DDA28500D4D530 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81735D726DDA28500D4D530 /* Models.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		F817358F26DD188900D4D530 /* Views */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81735AC26DD188A00D4D530 /* Build configuration list for PBXNativeTarget "Views" */;
+			buildPhases = (
+				999BB0179DEAEE7F186E7B14 /* [CP] Check Pods Manifest.lock */,
+				F817358B26DD188900D4D530 /* Headers */,
+				F817358C26DD188900D4D530 /* Sources */,
+				F817358D26DD188900D4D530 /* Frameworks */,
+				F817358E26DD188900D4D530 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Views;
+			productName = Views;
+			productReference = F817359026DD188900D4D530 /* Views.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F817359726DD188A00D4D530 /* ViewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81735AD26DD188A00D4D530 /* Build configuration list for PBXNativeTarget "ViewsTests" */;
+			buildPhases = (
+				D95059D0C3B86E3E64B8010B /* [CP] Check Pods Manifest.lock */,
+				F817359426DD188A00D4D530 /* Sources */,
+				F817359526DD188A00D4D530 /* Frameworks */,
+				F817359626DD188A00D4D530 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F817359B26DD188A00D4D530 /* PBXTargetDependency */,
+				F817359D26DD188A00D4D530 /* PBXTargetDependency */,
+			);
+			name = ViewsTests;
+			productName = ViewsTests;
+			productReference = F817359826DD188A00D4D530 /* ViewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F81735C426DDA28500D4D530 /* Models */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81735DC26DDA28500D4D530 /* Build configuration list for PBXNativeTarget "Models" */;
+			buildPhases = (
+				F81735C026DDA28500D4D530 /* Headers */,
+				F81735C126DDA28500D4D530 /* Sources */,
+				F81735C226DDA28500D4D530 /* Frameworks */,
+				F81735C326DDA28500D4D530 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Models;
+			productName = Models;
+			productReference = F81735C526DDA28500D4D530 /* Models.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F81735CC26DDA28500D4D530 /* ModelsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F81735DF26DDA28500D4D530 /* Build configuration list for PBXNativeTarget "ModelsTests" */;
+			buildPhases = (
+				F81735C926DDA28500D4D530 /* Sources */,
+				F81735CA26DDA28500D4D530 /* Frameworks */,
+				F81735CB26DDA28500D4D530 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F81735D026DDA28500D4D530 /* PBXTargetDependency */,
+				F81735D226DDA28500D4D530 /* PBXTargetDependency */,
+			);
+			name = ModelsTests;
+			productName = ModelsTests;
+			productReference = F81735CD26DDA28500D4D530 /* ModelsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F85F9EAA2691A97D00A401F3 /* OshiCalendar */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F85F9ED82691A97E00A401F3 /* Build configuration list for PBXNativeTarget "OshiCalendar" */;
@@ -205,10 +482,13 @@
 				F85F9EA82691A97D00A401F3 /* Frameworks */,
 				F85F9EA92691A97D00A401F3 /* Resources */,
 				DEBE9C7258EF4F641023D747 /* [CP] Embed Pods Frameworks */,
+				F81735A726DD188A00D4D530 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F81735A426DD188A00D4D530 /* PBXTargetDependency */,
+				F81735D926DDA28500D4D530 /* PBXTargetDependency */,
 			);
 			name = OshiCalendar;
 			productName = OshiCalendar;
@@ -260,10 +540,24 @@
 		F85F9EA32691A97D00A401F3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1170;
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = "平島峻成";
 				TargetAttributes = {
+					F817358F26DD188900D4D530 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					F817359726DD188A00D4D530 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F85F9EAA2691A97D00A401F3;
+					};
+					F81735C426DDA28500D4D530 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					F81735CC26DDA28500D4D530 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F85F9EAA2691A97D00A401F3;
+					};
 					F85F9EAA2691A97D00A401F3 = {
 						CreatedOnToolsVersion = 11.7;
 					};
@@ -293,16 +587,48 @@
 				F85F9EAA2691A97D00A401F3 /* OshiCalendar */,
 				F85F9EC32691A97E00A401F3 /* OshiCalendarTests */,
 				F85F9ECE2691A97E00A401F3 /* OshiCalendarUITests */,
+				F817358F26DD188900D4D530 /* Views */,
+				F817359726DD188A00D4D530 /* ViewsTests */,
+				F81735C426DDA28500D4D530 /* Models */,
+				F81735CC26DDA28500D4D530 /* ModelsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F817358E26DD188900D4D530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81735B126DD1A1900D4D530 /* TopView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F817359626DD188A00D4D530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81735C326DDA28500D4D530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81735CB26DDA28500D4D530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F85F9EA92691A97D00A401F3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8B50EA226DCE0EB001E6469 /* TopView.xib in Resources */,
 				F85F9EBE2691A97E00A401F3 /* LaunchScreen.storyboard in Resources */,
 				F85F9EBB2691A97E00A401F3 /* Assets.xcassets in Resources */,
 				F8B50EA426DCE1C5001E6469 /* Main.storyboard in Resources */,
@@ -392,6 +718,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		999BB0179DEAEE7F186E7B14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Views-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C98B12C3E29A0FECFE947B6B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -407,6 +755,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OshiCalendar-OshiCalendarUITests/Pods-OshiCalendar-OshiCalendarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D95059D0C3B86E3E64B8010B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViewsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DEBE9C7258EF4F641023D747 /* [CP] Embed Pods Frameworks */ = {
@@ -429,11 +799,42 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F817358C26DD188900D4D530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81735BF26DD9D7900D4D530 /* XibLoadView.swift in Sources */,
+				F81735B026DD192000D4D530 /* TopView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F817359426DD188A00D4D530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81735A026DD188A00D4D530 /* ViewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81735C126DDA28500D4D530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81735C926DDA28500D4D530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81735D526DDA28500D4D530 /* ModelsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F85F9EA72691A97D00A401F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F85F9EB32691A97D00A401F3 /* TopView.swift in Sources */,
 				F85F9EAF2691A97D00A401F3 /* AppDelegate.swift in Sources */,
 				F85F9EB92691A97D00A401F3 /* OshiCalendar.xcdatamodeld in Sources */,
 				F85F9EB12691A97D00A401F3 /* SceneDelegate.swift in Sources */,
@@ -460,6 +861,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		F817359B26DD188A00D4D530 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F817358F26DD188900D4D530 /* Views */;
+			targetProxy = F817359A26DD188A00D4D530 /* PBXContainerItemProxy */;
+		};
+		F817359D26DD188A00D4D530 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F85F9EAA2691A97D00A401F3 /* OshiCalendar */;
+			targetProxy = F817359C26DD188A00D4D530 /* PBXContainerItemProxy */;
+		};
+		F81735A426DD188A00D4D530 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F817358F26DD188900D4D530 /* Views */;
+			targetProxy = F81735A326DD188A00D4D530 /* PBXContainerItemProxy */;
+		};
+		F81735D026DDA28500D4D530 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F81735C426DDA28500D4D530 /* Models */;
+			targetProxy = F81735CF26DDA28500D4D530 /* PBXContainerItemProxy */;
+		};
+		F81735D226DDA28500D4D530 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F85F9EAA2691A97D00A401F3 /* OshiCalendar */;
+			targetProxy = F81735D126DDA28500D4D530 /* PBXContainerItemProxy */;
+		};
+		F81735D926DDA28500D4D530 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F81735C426DDA28500D4D530 /* Models */;
+			targetProxy = F81735D826DDA28500D4D530 /* PBXContainerItemProxy */;
+		};
 		F85F9EC62691A97E00A401F3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F85F9EAA2691A97D00A401F3 /* OshiCalendar */;
@@ -484,6 +915,210 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F81735A826DD188A00D4D530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1324535DF921CEBB0DEE571E /* Pods-Views.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9LKU3428CZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Views/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hira.Views;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F81735A926DD188A00D4D530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8141AF6619631928954847F /* Pods-Views.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9LKU3428CZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Views/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hira.Views;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F81735AA26DD188A00D4D530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 778F0CE07090B843DA7D8E16 /* Pods-ViewsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LKU3428CZ;
+				INFOPLIST_FILE = ViewsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hira.ViewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OshiCalendar.app/OshiCalendar";
+			};
+			name = Debug;
+		};
+		F81735AB26DD188A00D4D530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FC7607E5C9F59F28AF98606 /* Pods-ViewsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LKU3428CZ;
+				INFOPLIST_FILE = ViewsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hira.ViewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OshiCalendar.app/OshiCalendar";
+			};
+			name = Release;
+		};
+		F81735DD26DDA28500D4D530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9LKU3428CZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Models/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hira.Models;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F81735DE26DDA28500D4D530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9LKU3428CZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Models/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hira.Models;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F81735E026DDA28500D4D530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LKU3428CZ;
+				INFOPLIST_FILE = ModelsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hira.ModelsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OshiCalendar.app/OshiCalendar";
+			};
+			name = Debug;
+		};
+		F81735E126DDA28500D4D530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LKU3428CZ;
+				INFOPLIST_FILE = ModelsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hira.ModelsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OshiCalendar.app/OshiCalendar";
+			};
+			name = Release;
+		};
 		F85F9ED62691A97E00A401F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -604,6 +1239,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 05DAFD9E4EBFBBF2CF88536B /* Pods-OshiCalendar.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -626,6 +1262,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E3636ED7332E006B89B51762 /* Pods-OshiCalendar.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -735,6 +1372,42 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F81735AC26DD188A00D4D530 /* Build configuration list for PBXNativeTarget "Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81735A826DD188A00D4D530 /* Debug */,
+				F81735A926DD188A00D4D530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F81735AD26DD188A00D4D530 /* Build configuration list for PBXNativeTarget "ViewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81735AA26DD188A00D4D530 /* Debug */,
+				F81735AB26DD188A00D4D530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F81735DC26DDA28500D4D530 /* Build configuration list for PBXNativeTarget "Models" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81735DD26DDA28500D4D530 /* Debug */,
+				F81735DE26DDA28500D4D530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F81735DF26DDA28500D4D530 /* Build configuration list for PBXNativeTarget "ModelsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81735E026DDA28500D4D530 /* Debug */,
+				F81735E126DDA28500D4D530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F85F9EA62691A97D00A401F3 /* Build configuration list for PBXProject "OshiCalendar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

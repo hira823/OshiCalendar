@@ -7,13 +7,14 @@
 //
 
 import UIKit
-import FSCalendar
 import CalculateCalendarLogic
+import FSCalendar
 import Views
 
 //MARK:- vars and lifecycle
 class TopViewController: UIViewController {
     private let gregorian: Calendar = Calendar(identifier: .gregorian)
+    private lazy var myView = TopView()
     private lazy var dateFormatter: DateFormatter = {
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-MM-dd"
@@ -24,6 +25,11 @@ class TopViewController: UIViewController {
         super.viewDidLoad()
         self.setUI()
     }
+    
+    override func loadView() {
+        view = myView
+    }
+
 }
 
 //MARK:- UI
@@ -35,12 +41,12 @@ extension TopViewController{
     }
     
     private func setCalendar(){
-        self.calendar.dataSource = self
-        self.calendar.delegate = self
+        myView.calendar.dataSource = self
+        myView.calendar.delegate = self
     }
     
     private func setNavigationBar(){
-        navigationBar.delegate = self
+        myView.navigationBar.delegate = self
         self.makeGradation()
     }
     
@@ -55,8 +61,8 @@ extension TopViewController:UINavigationBarDelegate{
     // ナビゲーションバーにグラデーションを追加
     private func makeGradation(){
         let image = UIImage(named: "BG")
-        self.navigationBar.setBackgroundImage(image, for: .default)
-        self.navigationBar.isTranslucent = true
+        myView.navigationBar.setBackgroundImage(image, for: .default)
+        myView.navigationBar.isTranslucent = true
     }
     
     // ナビゲーションバーを画面上部まで拡張
@@ -100,20 +106,20 @@ extension TopViewController:FSCalendarDelegate,FSCalendarDataSource,FSCalendarDe
     
     //曜日の色と文字列を変更
     private func changeWeek(){
-        self.calendar.calendarWeekdayView.weekdayLabels[0].text = "日"
-        self.calendar.calendarWeekdayView.weekdayLabels[1].text = "月"
-        self.calendar.calendarWeekdayView.weekdayLabels[2].text = "火"
-        self.calendar.calendarWeekdayView.weekdayLabels[3].text = "水"
-        self.calendar.calendarWeekdayView.weekdayLabels[4].text = "木"
-        self.calendar.calendarWeekdayView.weekdayLabels[5].text = "金"
-        self.calendar.calendarWeekdayView.weekdayLabels[6].text = "土"
-        self.calendar.calendarWeekdayView.weekdayLabels[0].textColor = UIColor.red
-        self.calendar.calendarWeekdayView.weekdayLabels[1].textColor = UIColor.black
-        self.calendar.calendarWeekdayView.weekdayLabels[2].textColor = UIColor.black
-        self.calendar.calendarWeekdayView.weekdayLabels[3].textColor = UIColor.black
-        self.calendar.calendarWeekdayView.weekdayLabels[4].textColor = UIColor.black
-        self.calendar.calendarWeekdayView.weekdayLabels[5].textColor = UIColor.black
-        self.calendar.calendarWeekdayView.weekdayLabels[6].textColor = UIColor.blue
+        myView.calendar.calendarWeekdayView.weekdayLabels[0].text = "日"
+        myView.calendar.calendarWeekdayView.weekdayLabels[1].text = "月"
+        myView.calendar.calendarWeekdayView.weekdayLabels[2].text = "火"
+        myView.calendar.calendarWeekdayView.weekdayLabels[3].text = "水"
+        myView.calendar.calendarWeekdayView.weekdayLabels[4].text = "木"
+        myView.calendar.calendarWeekdayView.weekdayLabels[5].text = "金"
+        myView.calendar.calendarWeekdayView.weekdayLabels[6].text = "土"
+        myView.calendar.calendarWeekdayView.weekdayLabels[0].textColor = UIColor.red
+        myView.calendar.calendarWeekdayView.weekdayLabels[1].textColor = UIColor.black
+        myView.calendar.calendarWeekdayView.weekdayLabels[2].textColor = UIColor.black
+        myView.calendar.calendarWeekdayView.weekdayLabels[3].textColor = UIColor.black
+        myView.calendar.calendarWeekdayView.weekdayLabels[4].textColor = UIColor.black
+        myView.calendar.calendarWeekdayView.weekdayLabels[5].textColor = UIColor.black
+        myView.calendar.calendarWeekdayView.weekdayLabels[6].textColor = UIColor.blue
     }
 
     // 土日や祝日の日の文字色を変える

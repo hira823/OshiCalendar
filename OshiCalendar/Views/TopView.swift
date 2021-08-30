@@ -9,11 +9,8 @@
 import UIKit
 import FSCalendar
 
-class TopView: UIView {
-    
-    @IBOutlet weak var navigationBar: UINavigationBar!
-    @IBOutlet weak var calendar: FSCalendar!
-    
-    
+public final class TopView: XibLoadView {
+    @IBOutlet public weak var navigationBar: UINavigationBar!
+    @IBOutlet public weak var calendar: FSCalendar!
 }
 

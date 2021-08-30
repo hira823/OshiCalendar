@@ -10,26 +10,54 @@ import UIKit
 import FSCalendar
 import CalculateCalendarLogic
 
-class ViewController: UIViewController,UINavigationBarDelegate,FSCalendarDelegate,FSCalendarDataSource,FSCalendarDelegateAppearance {
-
-
-    @IBOutlet weak var navigationBar: UINavigationBar!
+//MARK:- vars and lifecycle
+class ViewController: UIViewController {
     
+    @IBOutlet weak var navigationBar: UINavigationBar!
     @IBOutlet weak var calendar: FSCalendar!
+    
+    private let gregorian: Calendar = Calendar(identifier: .gregorian)
+    private lazy var dateFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd"
+        return formatter
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.setUI()
+    }
 
-        navigationBar.delegate = self
-        self.calendar.dataSource = self
-        self.calendar.delegate = self
-        
-        makeGradation()
+}
+
+//MARK:- UI
+extension ViewController{
+    
+    private func setUI(){
+        self.setCalendar()
+        self.setNavigationBar()
     }
     
+    private func setCalendar(){
+        self.calendar.dataSource = self
+        self.calendar.delegate = self
+    }
+    
+    private func setNavigationBar(){
+        navigationBar.delegate = self
+        self.makeGradation()
+    }
+    
+    private func setTable(){
+        
+    }
+
+}
+
+//MARK:- ナビゲーションバー設定
+extension ViewController:UINavigationBarDelegate{
     // ナビゲーションバーにグラデーションを追加
-    func makeGradation(){
+    private func makeGradation(){
         let image = UIImage(named: "BG")
         self.navigationBar.setBackgroundImage(image, for: .default)
         self.navigationBar.isTranslucent = true
@@ -39,16 +67,13 @@ class ViewController: UIViewController,UINavigationBarDelegate,FSCalendarDelegat
     func position(for bar: UIBarPositioning) -> UIBarPosition {
         return .topAttached
     }
-    
-    fileprivate let gregorian: Calendar = Calendar(identifier: .gregorian)
-    fileprivate lazy var dateFormatter: DateFormatter = {
-        let formatter = DateFormatter()
-        formatter.dateFormat = "yyyy-MM-dd"
-        return formatter
-    }()
+}
+
+//MARK:- カレンダー設定
+extension ViewController:FSCalendarDelegate,FSCalendarDataSource,FSCalendarDelegateAppearance{
 
     // 祝日判定を行い結果を返すメソッド(True:祝日)
-    func judgeHoliday(_ date : Date) -> Bool {
+    private func judgeHoliday(_ date : Date) -> Bool {
         //祝日判定用のカレンダークラスのインスタンス
         let tmpCalendar = Calendar(identifier: .gregorian)
 
@@ -63,7 +88,7 @@ class ViewController: UIViewController,UINavigationBarDelegate,FSCalendarDelegat
         return holiday.judgeJapaneseHoliday(year: year, month: month, day: day)
     }
     // date型 -> 年月日をIntで取得
-    func getDay(_ date:Date) -> (Int,Int,Int){
+    private func getDay(_ date:Date) -> (Int,Int,Int){
         let tmpCalendar = Calendar(identifier: .gregorian)
         let year = tmpCalendar.component(.year, from: date)
         let month = tmpCalendar.component(.month, from: date)
@@ -72,13 +97,13 @@ class ViewController: UIViewController,UINavigationBarDelegate,FSCalendarDelegat
     }
 
     //曜日判定(日曜日:1 〜 土曜日:7)
-    func getWeekIdx(_ date: Date) -> Int{
+    private func getWeekIdx(_ date: Date) -> Int{
         let tmpCalendar = Calendar(identifier: .gregorian)
         return tmpCalendar.component(.weekday, from: date)
     }
     
     //曜日の色と文字列を変更
-    func changeWeek(){
+    private func changeWeek(){
         self.calendar.calendarWeekdayView.weekdayLabels[0].text = "日"
         self.calendar.calendarWeekdayView.weekdayLabels[1].text = "月"
         self.calendar.calendarWeekdayView.weekdayLabels[2].text = "火"
@@ -116,7 +141,24 @@ class ViewController: UIViewController,UINavigationBarDelegate,FSCalendarDelegat
 
         return nil
     }
-    
-
 }
+
+
+//// MARK: - UITableViewDataSource
+//extension ViewController:UITableViewDataSource{
+//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        <#code#>
+//    }
+//
+//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        <#code#>
+//    }
+//
+//
+//}
+//
+//// MARK: - UITableViewDelegate
+//extension ViewController:UITableViewDelegate{
+//
+//}
 

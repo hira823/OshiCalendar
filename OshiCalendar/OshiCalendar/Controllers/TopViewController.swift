@@ -9,13 +9,10 @@
 import UIKit
 import FSCalendar
 import CalculateCalendarLogic
+import Views
 
 //MARK:- vars and lifecycle
-class ViewController: UIViewController {
-    
-    @IBOutlet weak var navigationBar: UINavigationBar!
-    @IBOutlet weak var calendar: FSCalendar!
-    
+class TopViewController: UIViewController {
     private let gregorian: Calendar = Calendar(identifier: .gregorian)
     private lazy var dateFormatter: DateFormatter = {
         let formatter = DateFormatter()
@@ -27,11 +24,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.setUI()
     }
-
 }
 
 //MARK:- UI
-extension ViewController{
+extension TopViewController{
     
     private func setUI(){
         self.setCalendar()
@@ -55,7 +51,7 @@ extension ViewController{
 }
 
 //MARK:- ナビゲーションバー設定
-extension ViewController:UINavigationBarDelegate{
+extension TopViewController:UINavigationBarDelegate{
     // ナビゲーションバーにグラデーションを追加
     private func makeGradation(){
         let image = UIImage(named: "BG")
@@ -70,7 +66,7 @@ extension ViewController:UINavigationBarDelegate{
 }
 
 //MARK:- カレンダー設定
-extension ViewController:FSCalendarDelegate,FSCalendarDataSource,FSCalendarDelegateAppearance{
+extension TopViewController:FSCalendarDelegate,FSCalendarDataSource,FSCalendarDelegateAppearance{
 
     // 祝日判定を行い結果を返すメソッド(True:祝日)
     private func judgeHoliday(_ date : Date) -> Bool {
